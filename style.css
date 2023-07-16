@@ -318,10 +318,11 @@ nav.sticky .nav-links li a:hover {
   height: auto;
 }
 .aboutkasection img{
-  height: 400px;
+  height: 300px;
   border-radius: 50%;
   justify-content: flex-start;
   padding: 40px;
+
 }
 
 .textofaboutsec{
