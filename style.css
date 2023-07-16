@@ -322,7 +322,7 @@ nav.sticky .nav-links li a:hover {
   border-radius: 50%;
   justify-content: flex-start;
   padding: 40px;
-
+ width: auto;
 }
 
 .textofaboutsec{
