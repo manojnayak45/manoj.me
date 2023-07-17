@@ -76,7 +76,7 @@
    .nav > .nav-btn {
      display: inline-block;
      position: absolute;
-     right: 50px;
+     right: 80px;
      top: 0px;
    }
    .nav > .nav-btn > label {
@@ -215,7 +215,7 @@
 .ser{
 
   position: relative; 
-  top: 1800px;
+  top: 1700px;
   display: flex;
   height: auto;
   width: 90vw;
@@ -269,7 +269,7 @@
 .pro{
 
   position: relative; 
-  top: 2800px;
+  top: 2700px;
   /* left: 400px; */
   display: flex;
   justify-content:space-evenly ;
@@ -339,7 +339,7 @@
 }
 .aboutkasection img{
   height: 300px;
-  border-radius: 50%;
+  border-radius: 25%;
   justify-content: flex-start;
   padding: 40px;
  
@@ -348,24 +348,11 @@
 .textofaboutsec{
   display: flex;
   text-align:center;
-  padding-top: 100px;
+  padding-top: 70px;
   color: white;
   
 }
 
-
-
-
-
-
-
-.contactwalapic {
-  position: absolute;
-  top: -90px;
-  left: 300px;
-  height: 200px;
-
-}
 
 .container12 {
   color: white;
@@ -381,8 +368,8 @@
 .email {
 
   cursor: pointer;
-  background-color: #000;
-  color: #fff;
+  background-color: white;
+  color: white;
   padding: 0.7rem;
   border-radius: 0.5rem;
 }
@@ -433,7 +420,7 @@
 
   .newone {
     height: auto;
-    margin: 1rem;
+    margin: 2rem;
   }
 
 }
@@ -446,7 +433,7 @@
 @media screen and (max-width:700px){
   .ser{
     flex-direction: column;
-    margin: 5rem;
+    margin: 6rem;
   }
   .aboutkasection img{
     height: 540px;
@@ -459,7 +446,7 @@
     display: flex;
     flex-direction: column;
     /* left: 50px; */
-    margin: 5rem;
+    margin: 6rem;
   }
   
 }
@@ -467,7 +454,7 @@
 @media screen and (max-width: 700px){
   .about .aboutkasection{
     flex-direction: column;
-  margin: 3rem;
+  margin: 4rem;
   }
 }
 
