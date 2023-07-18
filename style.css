@@ -207,7 +207,7 @@
 
 .procon{
   position: relative;
-  top: 1240px;
+  top: 1260px;
   text-align: center;
   color: white;
   height: auto;
@@ -262,7 +262,7 @@
 
 .pro2{
   position: relative;
-  top: 1620px;
+  top: 1590px;
   text-align: center;
   color: white;
   
@@ -272,7 +272,7 @@
 .pro{
 
   position: relative; 
-  top: 1620px;
+  top: 1590px;
   /* left: 400px; */
   display: flex;
   justify-content:space-evenly ;
