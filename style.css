@@ -29,8 +29,10 @@
    height: 50px;
    width: 100%;
    background-color:transparent;
-   backdrop-filter: blur(20px);
+   padding-top: 10px;
+   padding-right: 40px;
    position: fixed;
+   margin-right:2rem;
  }
  
  .nav > .nav-header {
@@ -76,6 +78,7 @@
      right: 80px;
      top: 0px;
    }
+   
    .nav > .nav-btn > label {
      display: inline-block;
      width: 50px;
@@ -112,7 +115,7 @@
    .nav > #nav-check:checked ~ .nav-links {
      height: 35vh;
      overflow-y: auto;
-     background-color: grey;
+     background-color: transparent;
    }
  }
 
@@ -138,10 +141,6 @@
   left: 70px;
   height: 490px;
   width: 500px;
-  border-radius: 50%;
-
-
-
 }
 
 
@@ -208,7 +207,7 @@
 
 .procon{
   position: relative;
-  top: 1500px;
+  top: 1350px;
   text-align: center;
   color: white;
   height: auto;
@@ -226,26 +225,21 @@
   width: 90vw;
   display: flex;
   align-items: center;
-  justify-content:space-evenly;
+  justify-content:space-around;
   flex-direction: row;
   gap: 20px;
   padding: 30px;
   color:white;
-  background: #333;
+  background:black;
   font-family: "poppins";
   border-radius: 50px;
   margin-left:2rem;
   z-index: -1; 
 }
 
-
-.card img{
-  height:200px;
-  width: 280px;
-}
-
 .card{
  
+ bottom: 250px;
   height: auto;
   width: 300px;
   display: grid;
@@ -258,6 +252,9 @@
   padding: 30px;
   background:black;
 }
+.container1:hover{
+  box-shadow: 0 12px 16px 0 blue;
+}
 .container:hover{
   box-shadow: 0 12px 16px 0 blue;
 }
@@ -265,7 +262,7 @@
 
 .pro2{
   position: relative;
-  top: 1420px;
+  top: 1500px;
   text-align: center;
   color: white;
   
@@ -275,7 +272,7 @@
 .pro{
 
   position: relative; 
-  top: 1450px;
+  top: 1550px;
   /* left: 400px; */
   display: flex;
   justify-content:space-evenly ;
@@ -297,16 +294,16 @@
 
 
 .card1 img{
-  height:200px;
-  width: 280px;
+  height:300px;
+  width: 320px;
 }
 
-.card1{
+.card{
  
   height: auto;
   width: 300px;
   display: grid;
-  justify-content: space-evenly;
+  justify-content:space-around;
   
   gap: 10px;
   order: 2;
@@ -328,7 +325,7 @@
 
 .about {
   position: absolute;
-  top: 3600px;
+  top: 3200px;
   height: auto;
   width: 90vw;
   margin:0 2rem 0 2rem;
@@ -446,10 +443,12 @@
     margin-right: -100%;
     
   }
-  .aboutkasection img{
-    height: 540px;
+  .container1{
+    flex-direction: column;
   }
- 
+  .card23{
+    flex-direction: column;
+  }
 }
 
 @media screen and (max-width: 700px){
@@ -467,6 +466,10 @@
     flex-direction: column;
  
   }
+  .aboutkasection img{
+    height: 540px;
+  }
+ 
 }
 
   
