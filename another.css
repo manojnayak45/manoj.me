@@ -26,16 +26,16 @@
 }
 
  .nav {
-  height: 70px;
-  width: 100%;
-  margin-top:-10px;
-  padding-top: 20px;
-  background-color:transparent;
-  backdrop-filter: blur(20px);
-  padding-right: 40px;
-  position: fixed;
-  margin-right:2rem;
-  z-index: 100;
+   height: 70px;
+   width: 100%;
+   margin-top:-30px;
+   padding-top: 20px;
+   background-color:transparent;
+   backdrop-filter: blur(20px);
+   padding-right: 40px;
+   position: fixed;
+   margin-right:2rem;
+   z-index: 100;
  }
  
  .nav > .nav-header {
@@ -122,7 +122,7 @@
    }
  }
 
-.home {
+.mailkasec{
   height: 100vh;
   width: 100%;
 
@@ -149,8 +149,8 @@
 
 .naam {
 
-
-  position: absolute;
+ 
+  position: relative;
   top: 100px;
   font-style: italic;
   /* padding-left: 2rem; */
@@ -196,7 +196,7 @@
   color: white;
   font-size: 15px;
   font-family: Poppins, sans-serif;
-  ;
+  
 }
 
 .headingka1 {
@@ -210,7 +210,7 @@
 
 .procon{
   position: relative;
-  top: 1260px;
+  top: 280px;
   text-align: center;
   color: white;
   height: auto;
@@ -222,10 +222,10 @@
 .ser{
 
   position: relative; 
-  top: 1280px;
+  top: 340px;
   display: flex;
   height: auto;
-  width: 90vw;
+  width: auto;
   display: flex;
   align-items: center;
   justify-content:space-around;
@@ -236,7 +236,7 @@
   background:black;
   font-family: "poppins";
   border-radius: 50px;
-  margin-left:2rem;
+  margin-left:1rem;
   z-index: -1; 
 }
 
@@ -265,7 +265,7 @@
 
 .pro2{
   position: relative;
-  top: 1590px;
+  top: 590px;
   text-align: center;
   color: white;
   
@@ -275,12 +275,12 @@
 .pro{
 
   position: relative; 
-  top: 1590px;
+  top: 620px;
   /* left: 400px; */
   display: flex;
   justify-content:space-evenly ;
   height: auto;
-  width: 90vw;
+  width: auto;
   display: flex;
   align-items: center;
   justify-content:space-around;
@@ -292,7 +292,7 @@
   margin:1rem 1rem 0 2.0rem;
   font-family: "poppins";
   border-radius: 50px;
- 
+ padding-left: 1rem;
 }
 
 
@@ -304,7 +304,7 @@
 .card{
  
   height: auto;
-  width: 300px;
+  width: 500px;
   display: grid;
   justify-content:space-around;
   
@@ -313,7 +313,7 @@
   margin: 0 auto;
   border-radius: 6px;
   padding: 30px;
-  background:black;
+  
 }
 
 
@@ -328,7 +328,7 @@
 
 .about {
   position: absolute;
-  top: 3100px;
+  top: 3250px;
   height: auto;
   width: 90vw;
   margin:0 2rem 0 2rem;
@@ -396,6 +396,7 @@
 
 
 
+
 .media-icons a {
   color: #fff;
   font-size: 16px;
@@ -411,7 +412,7 @@
 }
 
 .media-icons a:hover {
-  color: #eb2f06;
+  color: yellow;
 }
 
 
@@ -430,9 +431,7 @@
     margin-right: -2rem;
    
   }
- .photo{
-  padding-right: 20px;
- }
+ 
 
 }
 
@@ -482,4 +481,90 @@
   .nav{
    flex-direction: column;
   }
+}
+
+
+
+
+
+
+body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box;}
+
+input[type=text], select, textarea {
+width: 100%;
+padding: 10px;
+border: 1px solid #ccc;
+border-radius: 4px;
+box-sizing: border-box;
+margin-top: 6px;
+margin-bottom: 16px;
+resize: vertical;
+}
+
+input[type=submit] {
+background-color: #04AA6D;
+color: white;
+padding: 12px 20px;
+border: none;
+border-radius: 4px;
+cursor: pointer;
+}
+
+input[type=submit]:hover {
+background-color: #45a049;
+}
+
+.container90 {
+  position: relative;
+  left: 80px;
+  margin-top: 20px;
+width: 100%;
+border-radius: 5px;
+padding: 20px;
+
+}
+
+.cont{
+
+  position: relative; 
+  top: 2640px;
+  display: flex;
+  height: auto;
+  width: 90vw;
+  display: flex;
+  align-items: center;
+  justify-content:space-around;
+  flex-direction: row;
+  gap: 20px;
+  padding: 30px;
+  color:white;
+
+  font-family: "poppins";
+  border-radius: 50px;
+  margin-left:2rem;
+  z-index: -1; 
+}
+
+.card9 img{
+  height:500px;
+  width: 420px;
+}
+
+.contactme{
+  position: relative;
+  top: 2600px;
+  text-align: center;
+  color: white;
+}
+
+@media  screen and (max-width:700px) {
+  .cont{
+    flex-direction: column;
+
+  }
+  .container19{
+    padding-right: 8rem;
+  }
+  
 }
